@@ -1,5 +1,5 @@
 
-public class PlanetUno extends SpaceObject{
+public class Planet extends SpaceObject{
 	private Orbit path;
 	private int rateIncrease;
 	public PlanetUno(String name, Boolean iOrbit, double price, Orbit path, int rateIncrease){
